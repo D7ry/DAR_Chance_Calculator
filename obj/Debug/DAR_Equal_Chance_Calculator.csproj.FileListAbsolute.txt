@@ -1,0 +1,7 @@
+C:\Users\天韵\source\repos\DAR_Equal_Chance_Calculator\DAR_Equal_Chance_Calculator\bin\Debug\DAR_Equal_Chance_Calculator.exe.config
+C:\Users\天韵\source\repos\DAR_Equal_Chance_Calculator\DAR_Equal_Chance_Calculator\bin\Debug\DAR_Equal_Chance_Calculator.exe
+C:\Users\天韵\source\repos\DAR_Equal_Chance_Calculator\DAR_Equal_Chance_Calculator\bin\Debug\DAR_Equal_Chance_Calculator.pdb
+C:\Users\天韵\source\repos\DAR_Equal_Chance_Calculator\DAR_Equal_Chance_Calculator\obj\Debug\DAR_Equal_Chance_Calculator.csproj.AssemblyReference.cache
+C:\Users\天韵\source\repos\DAR_Equal_Chance_Calculator\DAR_Equal_Chance_Calculator\obj\Debug\DAR_Equal_Chance_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\天韵\source\repos\DAR_Equal_Chance_Calculator\DAR_Equal_Chance_Calculator\obj\Debug\DAR_Equal_Chance_Calculator.exe
+C:\Users\天韵\source\repos\DAR_Equal_Chance_Calculator\DAR_Equal_Chance_Calculator\obj\Debug\DAR_Equal_Chance_Calculator.pdb
