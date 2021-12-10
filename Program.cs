@@ -19,13 +19,13 @@ namespace DAR_Equal_Chance_Calculator
                 if (Console.ReadLine().ToLower() == "y")
                 {
                     float target_P = 1 / folderCt;
-                    float overwrite_P = 1.0f;
+                    float not_overwritten_P = 1.0f; //probability for the current folder to not be overwritten by previous ones.
                     while (folderCt > 0)
                     {
-                        float chance = target_P / overwrite_P;
+                        float chance = target_P / not_overwritten_P;
                         _DARProbability.Add(chance);
                         folderCt--;
-                        overwrite_P *= (1 - chance);
+                        not_overwritten_P *= (1 - chance);
                     }
                 } else
                 {
@@ -43,13 +43,13 @@ namespace DAR_Equal_Chance_Calculator
                         Console.WriteLine("Error: sum of expected probabilities cannot be bigger than 1.");
                     } else
                     {
-                        float overwrite_P = 1.0f;
+                        float not_overwritten_P = 1.0f; //probability for the current folder to not be overwritten by previous ones.
                         while (folderCt > 0)
                         {
-                            float chance = expected_P[(int)folderCt - 1] / overwrite_P;
+                            float chance = expected_P[(int)folderCt - 1] / not_overwritten_P;
                             _DARProbability.Add(chance);
                             folderCt--;
-                            overwrite_P *= (1 - chance);
+                            not_overwritten_P *= (1 - chance);
                         }
                     }
                 }
